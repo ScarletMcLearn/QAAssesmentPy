@@ -15,11 +15,13 @@ from selenium.common.exceptions import NoSuchElementException
 def finds_elements_by_tag_attribute_value(driver, tag, attribute, value):
     try:
         elements = driver.find_elements_by_xpath('//'+tag+'[@'+attribute+'="' + value + '"]')
-
+# 
         return elements
-
+# 
     except NoSuchElementException:
         print("No elements found")
 
         
     # srch_fld.send_keys('test abc 2#')
+
+    
