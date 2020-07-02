@@ -1,5 +1,15 @@
-browser = 'firefox'   # [options: 'chrome' | 'firefox']
+browser = 'chrome'   # [options: 'chrome' | 'firefox']
 
-country = ['US']  # [options : 'US' | 'UK' | 'NZ']
+country = 'en-us'  # [options : 'ww' | 'uk' | 'nz']
 
-environment = ['qa']  # [options : 'qa' | 'stage' | 'prod']
+environment = 'qa'  # [options : 'qa' | 'stage' | 'prod']
+
+cookies = 'on' # [options : 'off'] 
+
+email = ''
+
+password = ''
+
+incorrect_email = '123123@hotmail.com'
+
+incorrect_password = '12345678'

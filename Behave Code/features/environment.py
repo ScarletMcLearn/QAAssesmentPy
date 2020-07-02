@@ -69,11 +69,16 @@ def before_scenario(context,scenario):
     #  context.driver = webdriver.Chrome(executable_path='/home/scarlet/Projects/PyEnvs/WebScrapingEnv/chromedriver', chrome_options=chrome_options)      # Chrome Driver Path 
     #  # clear_cache(context.driver)
 
-    
-     if (browser == 'chrome'):
-        context.driver = get_chrome_with_cache_cleared()
-     elif (browser == 'firefox'):
-        context.driver = get_firefox_with_cache_cleared()
+     if (cookies == 'off'):
+          if (browser == 'chrome'):
+               context.driver = get_chrome_with_cache_cleared()
+          elif (browser == 'firefox'):
+               context.driver = get_firefox_with_cache_cleared()
+     elif (cookies == 'on'):
+          if (browser == 'chrome'):
+               context.driver =  webdriver.Chrome(executable_path='/home/scarlet/Projects/PyEnvs/WebScrapingEnv/chromedriver')
+          elif (browser == 'firefox'):
+               context.driver = webdriver.Firefox(executable_path=r'/home/scarlet/Projects/PyEnvs/WebScrapingEnv/geckodriver')
 
     #  time.sleep(5)
      context.driver.implicitly_wait(10)

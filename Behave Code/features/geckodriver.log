@@ -49,3 +49,112 @@ http://requirejs.org/docs/errors.html#scripterror
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1593708693801	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepDDN8s"
+1593708694509	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1593708694551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1593708694551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1593708694551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1593708694551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1593708699771	Marionette	INFO	Listening on port 44253
+1593708699954	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage, line 149: unreachable code after return statement
+JavaScript error: https://cdnssl.clicktale.net/www/WR-latest.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage, line 52: Error: Script error for "https://www.microsoft.com/library/svy/broker.js"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage, line 52: Error: Script error for "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1r2ij"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage, line 52: Error: Script error for "https://cdnssl.clicktale.net/www32/ptc/d0ab222a-1420-48cc-9bbd-6bdae7be01fc.js"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 568: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1593708728372	Marionette	INFO	Stopped listening on port 44253
+1593708798521	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWwoDOa"
+1593708799334	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1593708799387	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1593708799387	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1593708799388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1593708799388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1593708803374	Marionette	INFO	Listening on port 40635
+1593708803478	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage, line 149: unreachable code after return statement
+JavaScript error: https://cdnssl.clicktale.net/www/WR-latest.js, line 2: SecurityError: The operation is insecure.
+JavaScript warning: https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage, line 149: unreachable code after return statement
+JavaScript error: https://cdnssl.clicktale.net/www/WR-latest.js, line 2: SecurityError: The operation is insecure.
+1593708834465	Marionette	INFO	Stopped listening on port 40635
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593708950566	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehsbu7s"
+1593708951274	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1593708951317	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1593708951317	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1593708951317	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1593708951317	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1593708955041	Marionette	INFO	Listening on port 44217
+1593708955111	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage, line 149: unreachable code after return statement
+JavaScript error: https://cdnssl.clicktale.net/www/WR-latest.js, line 2: SecurityError: The operation is insecure.
+JavaScript warning: https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage, line 149: unreachable code after return statement
+JavaScript error: https://cdnssl.clicktale.net/www/WR-latest.js, line 2: SecurityError: The operation is insecure.
+1593708987590	Marionette	INFO	Stopped listening on port 44217
+1593709742881	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVebcyw"
+1593709743524	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1593709743569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1593709743569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1593709743570	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1593709743570	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1593709747900	Marionette	INFO	Listening on port 40411
+1593709747943	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage, line 149: unreachable code after return statement
+JavaScript error: https://cdnssl.clicktale.net/www/WR-latest.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage, line 52: Error: Script error for "https://www.microsoft.com/library/svy/broker.js"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage, line 52: Error: Script error for "https://cdnssl.clicktale.net/www32/ptc/d0ab222a-1420-48cc-9bbd-6bdae7be01fc.js"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage, line 52: Error: Script error for "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1r2ij"
+http://requirejs.org/docs/errors.html#scripterror
+1593709780659	Marionette	INFO	Stopped listening on port 40411
+1593709874524	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOS5b3W"
+1593709875181	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1593709875229	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1593709875229	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1593709875229	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1593709875229	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1593709879568	Marionette	INFO	Listening on port 39997
+1593709879604	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage, line 149: unreachable code after return statement
+JavaScript error: https://cdnssl.clicktale.net/www/WR-latest.js, line 2: SecurityError: The operation is insecure.
+JavaScript warning: https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage, line 149: unreachable code after return statement
+JavaScript error: https://cdnssl.clicktale.net/www/WR-latest.js, line 2: SecurityError: The operation is insecure.
+1593709911695	Marionette	INFO	Stopped listening on port 39997
+1593710662073	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerqL53J"
+1593710662782	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1593710662852	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1593710662852	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1593710662853	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1593710662853	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1593710666913	Marionette	INFO	Listening on port 36883
+1593710666945	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage, line 149: unreachable code after return statement
+JavaScript error: https://cdnssl.clicktale.net/www/WR-latest.js, line 2: SecurityError: The operation is insecure.
+JavaScript warning: https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage, line 149: unreachable code after return statement
+1593710699100	Marionette	INFO	Stopped listening on port 36883
+1593710865527	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0lxfIq"
+1593710866123	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1593710866175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1593710866175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1593710866175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1593710866175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1593710869812	Marionette	INFO	Listening on port 36861
+1593710869860	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage, line 149: unreachable code after return statement
+JavaScript error: https://cdnssl.clicktale.net/www/WR-latest.js, line 2: SecurityError: The operation is insecure.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593710882423	Marionette	INFO	Stopped listening on port 36861
