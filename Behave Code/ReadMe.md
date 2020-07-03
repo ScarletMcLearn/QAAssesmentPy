@@ -33,3 +33,9 @@ ult_folder% -n 'Go to different Locale site'
 
 allure serve %allure_result_folder%
 
+
+For All Features:
+
+behave -f allure_behave.formatter:AllureFormatter -o %allure_result_folder% ./features
+
+allure serve %allure_result_folder%
