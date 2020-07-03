@@ -48,3 +48,15 @@ Feature: OneDrive upload and verification
         Given the User is navigates to One Drive page with selected locale
         And selects custom Locale
         Then One Drive site is shown 
+
+
+    Scenario: Upload File to One Drive
+
+        When the User makes POST request to API
+        Then File uploaded successfuly to One Drive 
+
+
+    Scenario: Verify File on One Drive
+
+        When the User makes GET request to API
+        Then File found successfuly on One Drive 
