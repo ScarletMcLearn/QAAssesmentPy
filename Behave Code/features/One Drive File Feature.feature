@@ -50,13 +50,15 @@ Feature: OneDrive upload and verification
         Then One Drive site is shown 
 
 
-    Scenario: Upload File to One Drive
+    Scenario: Upload File to One Drive using API
 
-        When the User makes POST request to API
-        Then File uploaded successfuly to One Drive 
+        Given the User has valid Authentication Key
+        When the User makes PUT request to API
+        Then response status code shows file uploaded 
 
 
     Scenario: Verify File on One Drive
 
+        Given the User has valid Authentication Key
         When the User makes GET request to API
         Then File found successfuly on One Drive 

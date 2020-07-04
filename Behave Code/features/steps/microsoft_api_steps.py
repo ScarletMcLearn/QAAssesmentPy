@@ -23,7 +23,7 @@ import config
 
 import pyautogui
 
-
+import requests
 
 
 @when(u'the User makes POST request to API')
@@ -43,10 +43,34 @@ def step_impl(context):
 
 @when(u'the User makes GET request to API')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: When the User makes GET request to API')
+    resp = requests.get("https://graph.microsoft.com/v1.0/me/drive/root/search(q='myupload.jpg')?select=name,id,webUrl", headers={"Authorization" : config.authorization_token})
+
+    context.get_response_code = resp.status_code
+    context.get_response = resp.text
 
 
+
+# To DO
 @then(u'File found successfuly on One Drive')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: Then File found successfuly on One Drive')
+    assert context.get_response_code == ,
+    and 
+    assert context.get_response == 
+
+
+
+@given(u'the User has valid Authentication Key')
+def step_impl(context):
+    assert bool(config.authorization_token) == True
+
+
+@when(u'the User makes PUT request to API')
+def step_impl(context):
+    context.put_code = requests.put("https://graph.microsoft.com/v1.0/me/drive/root:/home/scarlet/Projects/Automation/Assesment/Py Assesment/1/testdata.txt:/content", headers={"Authorization":config.authorization_token}).status_code
+
+@then(u'response status code shows file uploaded')
+def step_impl(context):
+    assurt context.put_code == 201
+
+
 
