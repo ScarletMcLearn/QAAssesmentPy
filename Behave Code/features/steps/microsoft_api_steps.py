@@ -50,7 +50,7 @@ def step_impl(context):
     # context.get_response_code = resp.status_code
     # context.get_response = resp.text
 
-    search_query = 'a'
+    search_query = config.file_to_search
     authorization = config.authorization_token
     context.resp = requests.get("https://graph.microsoft.com/v1.0/me/drive/root/search(q='" + search_query + "')?select=name,id,webUrl", headers={'authorization':authorization})
 
