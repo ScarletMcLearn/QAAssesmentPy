@@ -1,5 +1,5 @@
 Project System:
-VirtualBox
+VirtualBox (Version 6.0.14 r133895 (Qt5.6.2))
 Guest Additions
 Linux Mint 18.3 Sylvia
 
